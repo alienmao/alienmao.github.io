@@ -29,7 +29,7 @@ exports.createPages = async ({ graphql, actions }) => {
     result.data.allMdx.nodes.forEach(( node ) => {
         createPage({
           path: node.fields.slug,
-          component: path.resolve(`./src/pages/test.js`),
+          component: path.resolve(`./src/pages/blog_page.js`),
           context: {
             // Data passed to context is available
             // in page queries as GraphQL variables.
