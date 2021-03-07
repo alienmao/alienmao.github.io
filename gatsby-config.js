@@ -4,10 +4,10 @@ module.exports = {
     author: {
       name: `Harvey Qiu`,
       summary: `懂一点技术的法学生`,
-      email: `qiushimao@hotmail.com`,
+      email: `harveyqiu1110@outlook.com`,
     },
     description: `老邱的研发基地`,
-    siteUrl: `https://alienmao.github.io/`,
+    siteUrl: `https://blog.harveyqiu.xyz/`,
   },
   plugins: [
     {
@@ -142,5 +142,14 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        // You can add multiple tracking ids and a pageview event will be fired for all of them.
+        trackingIds: [
+          "G-3JTB9522QJ", // Google Analytics / GA
+        ],
+      },
+    },
   ],
 }

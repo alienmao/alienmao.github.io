@@ -58,7 +58,7 @@ const Layout = ({ location, title, children }) => {
     >
       <header>{header}</header>
       <main>{children}</main>
-      <footer>
+      <div style={{display: `flex`, justifyContent: `space-around`}}>
         <div>
           <a href="mailto:qiushimao@hotmail.com">Contact me</a>
         </div>
@@ -70,7 +70,7 @@ const Layout = ({ location, title, children }) => {
         <p>
           <a href="https://blog.harveyqiu.xyz/rss.xml">RSS</a>
         </p>
-      </footer>
+      </div>
     </div>
   )
 }
