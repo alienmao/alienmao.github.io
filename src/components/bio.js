@@ -26,6 +26,7 @@ const Bio = () => {
           author {
             name
             summary
+            email
           }
         }
       }
@@ -53,9 +54,14 @@ const Bio = () => {
           borderRadius: `50%`,
         }}
       />
-      <p>
-        Written by <strong>{author.name}</strong> {author.summary}
-      </p>
+      <div>
+        <p style={{marginBottom: 0}}>
+          Written by <strong>{author.name}</strong> {author.summary}
+        </p>
+        <p>
+          Email: {author.email}
+        </p>
+      </div>
     </div>
   )
 }

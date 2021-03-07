@@ -59,9 +59,17 @@ const Layout = ({ location, title, children }) => {
       <header>{header}</header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <div>
+          <a href="mailto:qiushimao@hotmail.com">Contact me</a>
+        </div>
+        <div>
+          © {new Date().getFullYear()}, Built with
+            {` `}
+            <a href="https://www.gatsbyjs.org">Gatsby</a>
+        </div>
+        <p>
+          <a href="https://blog.harveyqiu.xyz/rss.xml">RSS</a>
+        </p>
       </footer>
     </div>
   )

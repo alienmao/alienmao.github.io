@@ -4,8 +4,9 @@ module.exports = {
     author: {
       name: `Harvey Qiu`,
       summary: `懂一点技术的法学生`,
+      email: `qiushimao@hotmail.com`,
     },
-    description: `奇怪的人写奇怪的博客`,
+    description: `老邱的研发基地`,
     siteUrl: `https://alienmao.github.io/`,
   },
   plugins: [
