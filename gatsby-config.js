@@ -7,7 +7,7 @@ module.exports = {
       email: `harveyqiu1110@outlook.com`,
     },
     description: `老邱的研发基地`,
-    siteUrl: `https://blog.harveyqiu.xyz/`,
+    siteUrl: `https://alienmao.github.io/`,
   },
   plugins: [
     {
